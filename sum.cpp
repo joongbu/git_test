@@ -1,7 +1,4 @@
-int sum(int a, int b)
-{	
-	int res = 0;
-	for(int i = 0; i <= b; i++)
-		res += i;
-	return res;
+
+int sum(int a, int b) {
+	return (a + b) * (b - a + 1) / 2;
 }
